@@ -1,4 +1,4 @@
-function [finalY, finalbeta, finalbeta0, y, finalinfo, allY, value] = MAIN(varargin)
+function [finalY, finalbeta, finalbeta0, y, finalinfo, allY, value] = MDE(varargin)
 
 % Input:
 %   1: beta grid
