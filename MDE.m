@@ -7,6 +7,7 @@ function [finalY, finalbeta, finalbeta0, y, finalinfo, allY, value] = MDE(vararg
 % Output:
 %   finalY: final N * 3 structure
 %   finalbeta: selected beta
+%   finalbeta0: selected beta0
 %   y: log-likelihood, first row is EDM constrained, second row is
 %       un-constrained
 %   finalinfo: EDM embedding info of the selected beta
